@@ -68,7 +68,7 @@ const HomeHeader = ({ onSearch }) => {
           }}
         >
           <Image
-            style={{ widht: 20, height: 20, marginRight: SIZES.base }}
+            style={{ width: 20, height: 20, marginRight: SIZES.base }}
             resizeMode="contain"
             source={assets.search}
           />

@@ -24,15 +24,6 @@ export const NFTTitle = ({ title, subTitle, titleSize, subTitleSize }) => {
       >
         {subTitle}
       </Text>
-      <Text
-        style={{
-          fontFamily: FONTS.regular,
-          fontSize: subTitleSize,
-          color: COLORS.primary,
-        }}
-      >
-        {subTitle}
-      </Text>
     </View>
   );
 };
@@ -74,9 +65,9 @@ export const ImgCmp = ({ imgUrl, index }) => {
 
 export const People = () => {
   return (
-    <View style={{ flexDirection: "row" }}>
+    <View style={{ flexDirection: "row", marginLeft: SIZES.font }}>
       {peopleData.map((imgUrl, index) => (
-        <ImgCmp imgUrl={imgUrl} index={index} />
+        <ImgCmp imgUrl={imgUrl} key={index} />
       ))}
     </View>
   );
@@ -122,7 +113,7 @@ export const SubInfo = () => {
   return (
     <View
       style={{
-        width: "100",
+        width: "100%",
         paddingHorizontal: SIZES.font,
         marginTop: -SIZES.extraLarge,
         flexDirection: "row",
