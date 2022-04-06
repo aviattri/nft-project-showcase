@@ -3,7 +3,7 @@ import assets from "./assets";
 const NFTData = [
   {
     id: "NFT-01",
-    name: "Abstracto #312",
+    name: "3D Ape NFT",
     creator: "Putri Intan",
     price: 4.25,
     description:
@@ -35,7 +35,7 @@ const NFTData = [
   },
   {
     id: "NFT-02",
-    name: "Green Coins",
+    name: "Rainbow Ape NFT",
     creator: "Siti Nurhaliza",
     price: 7.25,
     description:
@@ -53,7 +53,7 @@ const NFTData = [
   },
   {
     id: "NFT-03",
-    name: "NFT coins race",
+    name: "Golden Ape NFT",
     creator: "Elisabeth aho",
     price: 95.25,
     description:
@@ -78,7 +78,7 @@ const NFTData = [
   },
   {
     id: "NFT-04",
-    name: "Nifty NFT",
+    name: "Chill Ape NFT",
     creator: "Putri Intan",
     price: 54.25,
     description:
@@ -117,7 +117,7 @@ const NFTData = [
   },
   {
     id: "NFT-05",
-    name: "Colorful circles",
+    name: "Awake Ape NFT",
     creator: "David doe",
     price: 10.25,
     description:
@@ -135,7 +135,7 @@ const NFTData = [
   },
   {
     id: "NFT-06",
-    name: "Black box model",
+    name: "Black Panther Ape NFT",
     creator: "Leo Messi",
     price: 20.25,
     description:
@@ -181,7 +181,7 @@ const NFTData = [
   },
   {
     id: "NFT-07",
-    name: "Abstracto soulful art",
+    name: "Stongeage Ape NFT",
     creator: "Victor de la Cruz",
     price: 18.25,
     description:
